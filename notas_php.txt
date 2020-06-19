@@ -1,0 +1,20 @@
+
+PHP 7
+
+1.- configuración del entorno PHP con XAMPP, en linux
+
+- descargar XAMMP para linux desde la página oficial
+- dar permisos de ejecución al archivo
+sudo chmod +x xampp-linux-x64-7.4.3-0-installer
+
+- ejecutar el archivo como root
+sudo su
+./xampp-linux-x64-7.4.3-0-installer.run
+
+- agregar permisos para crear una carpeta en htdocs/ 
+ruta de htdocs en linux: /opt/lampp/htdocs
+sudo chmod 777 /opt/lampp/htdocs   -> y ya deja crear carpetas en htdocs/
+
+- detener e iniciar XAMMP en ubuntu 19
+sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp stop
